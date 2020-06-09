@@ -1,0 +1,12 @@
+C:\Users\Костя\source\repos\PoraKushat\PoraKushat\obj\Debug\PoraKushat.csproj.CoreCompileInputs.cache
+C:\Users\Костя\source\repos\PoraKushat\PoraKushat\obj\Debug\PoraKushat.csprojAssemblyReference.cache
+C:\Users\Костя\source\repos\PoraKushat\PoraKushat\bin\Debug\KinoMir.exe.config
+C:\Users\Костя\source\repos\PoraKushat\PoraKushat\bin\Debug\KinoMir.exe
+C:\Users\Костя\source\repos\PoraKushat\PoraKushat\bin\Debug\KinoMir.pdb
+C:\Users\Костя\source\repos\PoraKushat\PoraKushat\obj\Debug\KinoMir.exe
+C:\Users\Костя\source\repos\PoraKushat\PoraKushat\obj\Debug\KinoMir.pdb
+C:\Users\Костя\source\repos\PoraKushat\PoraKushat\bin\Debug\KinoMir.exe.manifest
+C:\Users\Костя\source\repos\PoraKushat\PoraKushat\bin\Debug\KinoMir.application
+C:\Users\Костя\source\repos\PoraKushat\PoraKushat\obj\Debug\KinoMir.TrustInfo.xml
+C:\Users\Костя\source\repos\PoraKushat\PoraKushat\obj\Debug\KinoMir.exe.manifest
+C:\Users\Костя\source\repos\PoraKushat\PoraKushat\obj\Debug\KinoMir.application
